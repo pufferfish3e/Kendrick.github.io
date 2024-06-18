@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
-    background: url('assets/background-image.jpeg') no-repeat center center fixed;
+    background: url('background.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 header {
@@ -13,6 +13,10 @@ header {
     color: #fff;
     padding: 1rem 0;
     text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 nav ul {
     list-style: none;
@@ -35,12 +39,12 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 main {
-    padding: 2rem;
+    padding: 4rem 2rem 2rem; /* Add top padding to account for fixed header */
     margin: 1rem;
     background: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
     max-width: 800px;
-    margin: 2rem auto;
+    margin: 5rem auto 2rem; /* Add top margin to account for fixed header */
 }
 h2 {
     border-bottom: 2px solid #333;
@@ -68,4 +72,22 @@ a {
 }
 a:hover {
     text-decoration: underline;
+}
+#scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    font-size: 18px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+#scrollToTopBtn:hover {
+    background-color: #444;
 }
