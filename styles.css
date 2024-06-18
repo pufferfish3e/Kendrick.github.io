@@ -138,6 +138,5 @@ a:hover {
 .profile-image {
    width: 240px;
    height: auto;
-   padding-right: 60px;
-   border-radius: 15px;
+   padding-right: 60px;  
 }
