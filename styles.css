@@ -9,13 +9,13 @@ body {
     background-size: cover;
 }
 header {
+    font-family: lato;
     background: rgba(0, 0, 0, 0.7);
     color: #fff;
     padding: 0.5rem 0;
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 1000;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 nav {
@@ -38,15 +38,16 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     padding: 0.5rem 1rem;
-    transition: background 0.3s ease, color 0.3s ease;
+    transition: background 0.5s ease, color 0.5s ease;
     font-size: 1rem;
     text-align: center;
     white-space: nowrap;
 }
 nav ul li a:hover {
-    background: #444;
-    color: #fff;
-    border-radius: 5px;
+    background:#fff;
+    color: #000;
+    border-radius: 4px;
+
 }
 main {
     padding: 4rem 2rem 2rem; /* Add top padding to account for fixed header */
