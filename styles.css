@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
-    background: url("assets/background-image.jpeg") no-repeat center center fixed;
+    background: url("assets/background-image-2.jpeg") no-repeat center center fixed;
     background-size: cover;
 }
 header {
@@ -39,7 +39,6 @@ nav ul li a {
     text-decoration: none;
     padding: 0.5rem 1rem;
     transition: background 0.3s ease, color 0.3s ease;
-    font-weight: bold;
     font-size: 1rem;
     text-align: center;
     white-space: nowrap;
