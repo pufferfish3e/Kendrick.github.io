@@ -140,3 +140,7 @@ a:hover {
    height: auto;
    padding-right: 60px;  
 }
+
+.textcolor {
+   color: orange;
+}
